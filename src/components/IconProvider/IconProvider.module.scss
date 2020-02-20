@@ -1,0 +1,11 @@
+@import 'src/assets/styles/Theme.scss';
+
+.success {
+  background-color: $success;
+}
+.warning {
+  background-color: $warning;
+}
+.danger {
+  background-color: $danger;
+}

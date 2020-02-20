@@ -1,0 +1,29 @@
+@import 'src/assets/styles/Theme.scss';
+.root {
+  &.sizeXXL {
+    flex: 0 0 100%;
+    height: 100%;
+    width: 39%;
+  }
+  &.sizeXL {
+    flex: 0 0 100%;
+    width: 20%;
+  }
+  &.sizeM {
+    flex: 0 0 49%;
+    width: 20%;
+  }
+  overflow: hidden;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  margin: 0.2rem;
+  background-color: $lightGrey;
+
+  .controlsTable {
+    flex: 20 0 auto;
+    background-color: $lightGrey;
+    width: 100%;
+  }
+}
